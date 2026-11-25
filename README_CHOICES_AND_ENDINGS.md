@@ -1,26 +1,18 @@
 # The Way Home — All Choices and Endings
 
+This guide contains puzzle solutions, branching choices, and every ending. For a first playthrough, start the game before reading further.
+
 ## How to run
 
-The entry point is `main.py`. Run the game using the provided course Docker environment.
+From the repository folder, launch the terminal interface:
 
-1. Start Docker Desktop and wait until Docker is running.
-2. Place `main.py` inside the starter’s shared `project` folder:
+```bash
+python3 main.py
+```
 
-   ```text
-   project_docker/
-   ├── compose.yaml
-   ├── dockerfile
-   └── project/
-       └── main.py
-   ```
+Use an interactive terminal at least 80 columns by 24 rows. For the plain-text interface, run `python3 arbsize.py` instead; on Windows, use `py arbsize.py`.
 
-3. Open a terminal in `project_docker`, the folder containing `compose.yaml`.
-4. Run:
-
-   ```
-   docker compose run --rm game python3 main.py
-   ```
+See the [README](README.md) for requirements, controls, and troubleshooting.
 
 ## Ending overview
 
